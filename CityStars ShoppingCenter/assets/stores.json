@@ -1,0 +1,9 @@
+[{"name":"Bellona","level":1,"number":"20","logo":"","favorite":false, "category":"Food", "x":715, "y":239},
+{"name":"H&M","level":1,"number":"110","logo":"", "favorite":true, "category":"Cloth" , "x":340 ,"y":275},
+{"name":"Apple","level":1,"number":"10","logo":"", "favorite":true, "category":"Electronics", "x":740 ,"y":706},
+{"name":"TopShop","level":1,"number":"30","logo":"", "favorite":true, "category":"Cloth", "x":1263 ,"y":854},
+{"name":"Microsoft","level":1,"number":"55","logo":"", "favorite":true, "category":"Electronics", "x":844 ,"y":535},
+{"name":"Zara","level":1,"number":"5","logo":"", "favorite":true, "category":"Cloth", "x":1462 ,"y":607},
+{"name":"GUESS","level":1,"number":"5","logo":"", "favorite":true, "category":"Cloth", "x":1352 ,"y":737},
+{"name":"GYmBoREE","level":1,"number":"5","logo":"", "favorite":true, "category":"Cloth", "x":1051 ,"y":407},
+{"name":"GYmBoREE","level":1,"number":"5","logo":"", "favorite":true, "category":"Cloth", "x":1051 ,"y":407}]

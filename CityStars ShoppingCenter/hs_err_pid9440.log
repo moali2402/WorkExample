@@ -1,0 +1,132 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:124), pid=9440, tid=9696
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (8.0-b132) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.0-b70 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002188000):  JavaThread "Unknown thread" [_thread_in_vm, id=9696, stack(0x00000000022f0000,0x00000000023f0000)]
+
+Stack: [0x00000000022f0000,0x00000000023f0000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x308e0a]
+V  [jvm.dll+0x25df11]
+V  [jvm.dll+0x25eb2f]
+V  [jvm.dll+0x256486]
+V  [jvm.dll+0x5d36c]
+V  [jvm.dll+0x5d463]
+V  [jvm.dll+0x71d5a]
+V  [jvm.dll+0x720b8]
+V  [jvm.dll+0xe1637]
+V  [jvm.dll+0xe19c6]
+V  [jvm.dll+0x1f1407]
+V  [jvm.dll+0x2227e4]
+V  [jvm.dll+0x149f91]
+C  [javaw.exe+0x208a]
+C  [javaw.exe+0xc9db]
+C  [javaw.exe+0xca6f]
+C  [kernel32.dll+0x159ed]
+C  [ntdll.dll+0x2c541]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002188000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9696, stack(0x00000000022f0000,0x00000000023f0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.260 loading class java/lang/CharSequence done
+Event: 0.261 loading class java/lang/String done
+Event: 0.261 loading class java/lang/Class
+Event: 0.261 loading class java/lang/reflect/AnnotatedElement
+Event: 0.261 loading class java/lang/reflect/AnnotatedElement done
+Event: 0.261 loading class java/lang/reflect/GenericDeclaration
+Event: 0.261 loading class java/lang/reflect/GenericDeclaration done
+Event: 0.261 loading class java/lang/reflect/Type
+Event: 0.261 loading class java/lang/reflect/Type done
+Event: 0.261 loading class java/lang/Class done
+
+
+Dynamic libraries:
+0x000000013fa60000 - 0x000000013fa94000 	C:\Program Files\Java\jre8\bin\javaw.exe
+0x00000000772a0000 - 0x0000000077449000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077180000 - 0x000000007729f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd2f0000 - 0x000007fefd35c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff4d0000 - 0x000007feff5ab000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefe370000 - 0x000007fefe40f000 	C:\Windows\system32\msvcrt.dll
+0x000007feff4b0000 - 0x000007feff4cf000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff0b0000 - 0x000007feff1dd000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077080000 - 0x000000007717a000 	C:\Windows\system32\USER32.dll
+0x000007fefeb70000 - 0x000007fefebd7000 	C:\Windows\system32\GDI32.dll
+0x000007fefe350000 - 0x000007fefe35e000 	C:\Windows\system32\LPK.dll
+0x000007fefd4f0000 - 0x000007fefd5b9000 	C:\Windows\system32\USP10.dll
+0x000007fefbae0000 - 0x000007fefbcd4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefe6e0000 - 0x000007fefe751000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefedd0000 - 0x000007fefedfe000 	C:\Windows\system32\IMM32.DLL
+0x000007fefebe0000 - 0x000007fefece9000 	C:\Windows\system32\MSCTF.dll
+0x0000000061880000 - 0x0000000061952000 	C:\Program Files\Java\jre8\bin\msvcr100.dll
+0x000000005dc70000 - 0x000000005e49a000 	C:\Program Files\Java\jre8\bin\server\jvm.dll
+0x000007fefa980000 - 0x000007fefa989000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefee00000 - 0x000007fefee4d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe360000 - 0x000007fefe368000 	C:\Windows\system32\NSI.dll
+0x000007fefb180000 - 0x000007fefb1bb000 	C:\Windows\system32\WINMM.dll
+0x0000000077460000 - 0x0000000077467000 	C:\Windows\system32\PSAPI.DLL
+0x0000000073be0000 - 0x0000000073bef000 	C:\Program Files\Java\jre8\bin\verify.dll
+0x0000000061820000 - 0x0000000061848000 	C:\Program Files\Java\jre8\bin\java.dll
+0x0000000058630000 - 0x0000000058665000 	C:\Program Files\Java\jre8\bin\jdwp.dll
+0x0000000062c50000 - 0x0000000062c58000 	C:\Program Files\Java\jre8\bin\npt.dll
+0x0000000061800000 - 0x0000000061816000 	C:\Program Files\Java\jre8\bin\zip.dll
+0x000007fefaa10000 - 0x000007fefab35000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:52423 -Dfile.encoding=Cp1252 -Xbootclasspath:D:\Dev-Vision\Apps\Android\ADT Bundle\sdk\platforms\android-19\android.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 52422 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames de.vogella.algorithms.dijkstra.model.TestDijkstraAlgorithm
+java_class_path (initial): D:\Dev-Vision\Apps\Android\Workspace\Mall\bin\classes;D:\Dev-Vision\Apps\Android\Workspace\Mall\libs\crittercism_v3_0_3_sdkonly.jar;D:\Dev-Vision\Apps\Android\Workspace\Mall\libs\android-support-v4.jar;D:\Dev-Vision\Apps\Android\Workspace\libproject\google-play-services_lib\libs\google-play-services.jar;D:\Dev-Vision\Apps\Android\Workspace\Mall\libs\androidsvg-1.2.0.jar;D:\Dev-Vision\Apps\Android\Workspace\appcompat_v7_6\libs\android-support-v7-appcompat.jar;D:\Dev-Vision\Apps\Android\Workspace\appcompat_v7_6\bin\appcompat_v7_6.jar;D:\Dev-Vision\Apps\Android\Workspace\SlidingMenu-master\library\bin\slidingmenu.jar;D:\Dev-Vision\Apps\Android\Workspace\libraries\android-swipelistview-master\swipelistview\src\main\bin\swipelistview.jar;D:\Dev-Vision\Apps\Android\Workspace\libraries\JakeWharton-NineOldAndroids-9f20fd7\library\bin\nineold.jar;D:\Dev-Vision\Apps\Android\Workspace\libraries\PhotoView-master\library\src\main\bin\photoview.jar;D:\Dev-Vision\Apps\Android\Workspace\libraries\zxing\android\bin\captureactivity.jar;D:\Dev-Vision\Apps\Android\Workspace\libraries\FloatingGroupExpandableListView\bin\floatinggroupexpandablelistview.jar;D:\Dev-Vision\Apps\Android\Workspace\libproject\google-play-services_lib\bin\google-play-services_lib.jar;D:\Dev-Vision\Apps\Android\ADT Bundle\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;D:\Dev-Vision\Apps\Android\ADT Bundle\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;/D:/Dev-Vision/Apps/Android/ADT Bundle/eclipse/configuration/org.eclipse.osgi/bundles/204/1/.cp/;/D:/Dev-Vision/Apps/Android/ADT Bundle/eclipse/configuration/org.eclipse.osgi/bundles/203/1/.cp/
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+USERNAME=Mo
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8266864k(1739096k free), swap 16531864k(4159724k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.0-b70) for windows-amd64 JRE (1.8.0-b132), built on Mar  4 2014 03:46:18 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Sun Aug 17 23:32:43 2014
+elapsed time: 0 seconds
+

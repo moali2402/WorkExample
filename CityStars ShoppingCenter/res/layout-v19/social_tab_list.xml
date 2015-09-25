@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?android:attr/actionBarSize">
+
+     <ListView
+         android:id="@android:id/list"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#3b5998" />
+  
+     <LinearLayout
+        android:id="@+id/sticky"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height" >
+
+        <ImageView
+            android:id="@+id/f"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#3b5998"
+            android:src="@drawable/btn_join_fb_selected" />
+
+        <ImageView
+            android:id="@+id/t"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#55acee"
+            android:src="@drawable/btn_join_twitter_selected" />
+
+        <ImageView
+            android:id="@+id/i"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#e4228c"
+            android:src="@drawable/btn_join_instagram_selected" />
+
+    </LinearLayout>
+     
+    
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    
+    
+    <!-- put the desired backgrounds here -->
+    <drawable name="statusbar_background">#25496a</drawable>
+    <drawable name="window_background">#f2f2f2</drawable>
+    
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+
+<style name="ActionBarTheme" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">@drawable/statusbar_background</item>
+</style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+      <style name="Semi" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@color/semiTrans</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:backgroundDimEnabled">true</item>
+  </style>
+
+</resources>

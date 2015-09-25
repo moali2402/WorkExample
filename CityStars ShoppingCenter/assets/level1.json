@@ -1,0 +1,40 @@
+{
+	"stores":
+		[
+		{"name":"Golden Cinema","level":0,"number":"20","logo":"http://mediawatanguide.elwatannews.com/Places/logos/Medium/194180_Golden_Stars_Cinema_ph_alb_210620110442.jpg","favorite":false, "featured":false, "category":"Cinema", "x":785, "y":385},
+		{"name":"Bellona","level":1,"number":"20","logo":"https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10440794_810507175657707_7186237768603873259_n.jpg?oh=5c4fb70348b79a1a115848284acadfdb&oe=55722835&__gda__=1437932383_f705ecfa8941e36be566e97c913a23f8","favorite":false, "featured":false, "category":"Furniture", "x":715, "y":239},
+		{"name":"H&M","level":1,"number":"110","logo":"http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1280px-H%26M-Logo.svg.png", "favorite":true, "featured":true, "category":"Cloth" , "x":340 ,"y":275}
+		],
+	"dining":
+		[
+		{"name":"Chilis","level":4,"number":"20","logo":"http://www.mountainwestreeffest.com/wp-content/uploads/2014/05/S-Logo-A.png","favorite":false, "featured":true},
+		{"name":"Asian Corner","level":1,"number":"20","logo":"http://www.asiancorner.asia/images/logo_large.png","favorite":false, "featured":false}
+		],
+	"customers":
+		[
+		],	
+	"conveyor":
+		[
+		{"id":0, "type":"ESCALATOR", "level":0, "x":515, "y":445},
+		{"id":0, "type":"ESCALATOR", "level":1, "x":213, "y":360},
+		{"id":1, "type":"ESCALATOR", "level":0, "x":375, "y":435},
+		{"id":2, "type":"ELEVATOR", "level":1, "x":192, "y":310}
+		],
+	"wc":
+		[
+		{"level":1, "x":121, "y":254},
+		{"level":1, "x":402, "y":571},
+		{"level":1, "x":898, "y":739},
+		{"level":1, "x":816, "y":205},
+		{"level":0, "x":423, "y":175},
+		{"level":0, "x":951, "y":355}
+		],
+	"atm":
+		[
+		{"level":1, "x":756, "y":237},
+		{"level":1, "x":748, "y":658},
+		{"level":1, "x":811, "y":694},
+		{"level":1, "x":426, "y":494},
+		{"level":0, "x":480, "y":707}
+		]
+}

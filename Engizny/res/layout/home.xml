@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      	     android:id="@+id/container"
+      
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	          android:background="#e3ed1c24"
+	    
+	     android:fitsSystemWindows="true"
+	     tools:ignore="MergeRootFrame" >
+      
+	 <RelativeLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:layout_gravity="bottom"
+	     	          android:background="#fff"
+	     >
+	
+	    <ImageView
+	        android:id="@+id/imageView3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginBottom="20dp"
+	        android:adjustViewBounds="true"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/banner_logo" />
+	
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/imageView3"
+	        android:layout_marginTop="25dp"
+	        android:orientation="vertical"
+	        android:padding="10dp" >
+	
+	        <FrameLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+	            android:background="@drawable/frame_text" >
+	
+	            <Spinner
+	                android:id="@+id/spinner1"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:layout_margin="5dp"
+	                android:background="@drawable/spinner_frame"
+	                android:prompt="@string/choose_area" />
+	
+	            <ImageView
+	                android:id="@+id/imageView2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="fill_parent"
+	                android:layout_gravity="center_vertical|right"
+	                android:layout_marginBottom="5dp"
+	                android:layout_marginRight="5dp"
+	                android:layout_marginTop="5dp"
+	                android:background="@color/faded_red"
+	                android:paddingLeft="5dp"
+	                android:paddingRight="5dp"
+	                android:src="@drawable/dd_arrow_w" />
+	
+	            <ImageView
+	                android:id="@+id/locate"
+	                android:layout_width="40dp"
+	                android:layout_height="fill_parent"
+	                android:layout_marginLeft="5dp"
+	                android:padding="5dp"
+	                android:src="@drawable/location" />
+	
+	            <ProgressBar
+	                android:id="@+id/progressBar1"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:background="#30000000"
+	                android:clickable="true"
+	                android:padding="10dp"
+	                android:visibility="gone" />
+	        </FrameLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" >
+	
+	        </LinearLayout>
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp"
+	            android:background="@drawable/next_selector"
+	            android:enabled="false"
+	            android:gravity="center"
+	            android:paddingBottom="15dp"
+	            android:paddingTop="15dp"
+	            android:text="دخـول"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:textColor="#fff"
+	            android:textSize="18sp"
+	            android:textStyle="bold"
+	            android:visibility="visible" />
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_marginTop="5dp"
+	            android:gravity="center" >
+	
+	            <TextView
+	                android:id="@+id/english"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:gravity="center"
+	                android:padding="10dp"
+	                android:text="EN"
+	                android:textColor="@color/faded_red"
+	                android:textSize="16sp" />
+	
+	            <TextView
+	                android:id="@+id/arabic"
+	                android:layout_width="40dp"
+	                android:layout_height="40dp"
+	                android:layout_gravity="center"
+	                android:layout_marginLeft="10dp"
+	                android:gravity="center"
+	                android:text="عربى"
+	                android:textColor="@color/faded_red"
+	                android:textSize="16sp" />
+	
+	        </LinearLayout>
+	
+	    </LinearLayout>
+	
+	    <ImageView
+	        android:id="@+id/url"
+	        android:layout_width="125dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_margin="5dp"
+	        android:adjustViewBounds="true"
+	        android:src="@drawable/powered" />
+	
+	</RelativeLayout>
+</RelativeLayout>

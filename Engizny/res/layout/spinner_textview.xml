@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_spinner_entry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/spinner_selector"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:lines="1"
+    android:maxLines="1"
+    android:minHeight="50dp"
+    android:textColor="@drawable/selector"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+
